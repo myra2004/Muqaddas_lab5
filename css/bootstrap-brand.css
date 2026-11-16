@@ -1,0 +1,56 @@
+/* Brand colours on top of Bootstrap 5 (index-bootstrap.html) */
+body {
+  padding-top: 72px;
+  background: #FAF6EE;
+  font-family: Arial, sans-serif;
+}
+
+h1, h2, h3, .navbar-brand {
+  font-family: Georgia, serif;
+  color: #0B1F4B;
+}
+
+.navbar {
+  background: #0B1F4B;
+  --bs-navbar-color: #fff;
+  --bs-navbar-hover-color: #0B1F4B;
+  --bs-navbar-active-color: #fff;
+  --bs-navbar-brand-color: #fff;
+  --bs-navbar-brand-hover-color: #fff;
+}
+
+.navbar-brand .gold { color: #E0A526; }
+.navbar .nav-link:hover { background: #E0A526; }
+.navbar .nav-link.active { border-bottom: 3px solid #E0A526; }
+
+.btn-outline-gold {
+  --bs-btn-color: #fff;
+  --bs-btn-border-color: #E0A526;
+  --bs-btn-hover-color: #0B1F4B;
+  --bs-btn-hover-bg: #E0A526;
+  --bs-btn-hover-border-color: #E0A526;
+}
+
+.btn-night {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #0B1F4B;
+  --bs-btn-border-color: #0B1F4B;
+  --bs-btn-hover-color: #0B1F4B;
+  --bs-btn-hover-bg: #E0A526;
+  --bs-btn-hover-border-color: #E0A526;
+  --bs-btn-active-color: #0B1F4B;
+  --bs-btn-active-bg: #c48d1a;
+  --bs-btn-active-border-color: #c48d1a;
+}
+
+.btn-night:active { transform: scale(0.95); }
+
+.hero { background: linear-gradient(135deg, #f6e3b4, #FAF6EE); }
+.badge-gold { background: #E0A526; color: #0B1F4B; }
+.tile { height: 140px; background: linear-gradient(135deg, #dfe6f7, #f6e3b4); }
+.tour-image { width: 100%; object-fit: cover; }
+
+.card { transition: transform 0.2s, box-shadow 0.2s; }
+.card:hover { transform: translateY(-6px); box-shadow: 0 10px 20px rgba(11, 31, 75, 0.2); }
+
+.footer-brand { background: #0B1F4B; color: #fff; }
